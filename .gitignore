@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Production build directories
+/build/
+/dist/
+
+# Cache directories
+.cache/
+tmp/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Debug files
+debug/
+*.pid
+*.seed
+*.pid.lock
+
+# Test coverage directories
+/coverage/
+
+# MongoDB
+/data/db/
+*.lock
+
+# Firebase emulation (if used)
+firebase-debug.log
+.firebaserc
+
+# React-specific files
+/.eslintcache
+/.next/
+out/
+public/static/
+public/assets/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
